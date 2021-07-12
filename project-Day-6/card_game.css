@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe UI;
+}
+
+.outline {
+    background-image: url('./hackers.jpg')
+}
+
+.container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    margin-left: 10%;
+}
+
+.padd {
+    border: 5px dotted white;
+    padding: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 100%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.opened {
+    display: none;
+}
+
+.card {
+    height: 300px;
+    width: 18%;
+    background-color: red;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.overlay {
+    height: 300px;
+    width: 100%;
+    /* background-color: gray; */
+    background-image: url('https://m.media-amazon.com/images/I/71HUovrje+L._AC._SR360,460.jpg')
+}
+
+.sboard {
+    /* border: 5px solid white; */
+    /* padding-bottom: 10px; */
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 5px;
+    /* background-color: rgba(152, 88, 208, 5); */
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
